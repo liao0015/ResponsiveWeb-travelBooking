@@ -5,63 +5,164 @@
 Remember to use something like type-scale.com 
 to get your font sizes
 *******************************************/
+
 *{
 	padding:0;
 	margin: 0;
 }
+
 html,body{
 
 }
 h1{
-
+	font-family: 'Lobster', cursive;
+	font-size:50px;
 }
+
 h2{
-
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:30px;
+	margin-top:1rem;
+	margin-bottom:1rem;
 }
+
+
 p{
-
+	font-family: 'Indie Flower', cursive;
+	font-size:1rem;
 }
+
 
 /*******************************************
 				Layout
 *******************************************/
 .wrapper{
-	
+	background-color:#D7FFD1;
 }
+
 .masthead{
-	
+	text-align:center;
+	border-bottom-weight:2px;
+	border-bottom-width:6px;
+	border-bottom-style:double;
+	padding:2rem;
+	background-color:#CCCCC7;
 }
+
 .main{
-	
+	padding-bottom:1rem;
 }
+
 .foot{
+	background: #666;
+	color:#fff;
+	border-top: 6px solid #333;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.formBox{
+	font-family: 'Indie Flower', cursive;
+	font-size:1.5rem;
+	}
+.col{
+	font-family: 'Indie Flower', cursive;
+	font-size:1.5rem;
+}
+
+
+
+
+@media screen and (min-width: 500px){
+	.main{
+		margin:0 auto;
+	}
+	.formBox{
+		width:50%;
+		float:left;
+	}
+	.col{
+		width:50%;
+		float:left;
+	}
+	.buttons{
+		clear:both;
+	}
+	.foot{
+		clear:both;
+	}
+}
+
+
+@media screen and (min-width: 780px){
+	.main{
+		width:960px;
+	}
 	
+	.formBox{
+		width:25%; 
+		float:left;
+	}
+	.col{
+		width:25%;
+		float:left;
+	}
+	.buttons{
+		clear:both;
+	}
+	.foot{
+		clear:both;
+	}
 }
 
 /*******************************************
 				Form Styles
 *******************************************/
 .formBox{
-	
+	display:block;
 }
+
+.col{
+	display:block;
+}
+
 .buttons{
-	
+	margin-left:40%;
 }
+
 label{
+	margin:1rem 0.5rem 1rem 0.5rem;
+	display:block;
 	
 }
+
 input[type=text],
 input[type=number],
 input[type=date]{
+	font-family: 'Indie Flower', cursive;
+	font-size:1rem;
+	margin:1rem 0.5rem 1rem 0.5rem;
+	background-color:#4CFFD1;
+	display:block;
 	
 }
+
 input[type=submit],
 input[type=reset]{
-	
-}
+	font-family: 'Indie Flower', cursive;
+	font-size:1.5rem;
+	padding:1%;
+	margin:1rem 0.5rem 1rem 0.5rem;
+	background-color:#4CFFD1;
+	display:block;
+	}
 
 
 /*******************************************
 				Image Styles
 *******************************************/
-
+svg{
+	margin:1rem 0.5rem 1rem 0.5rem;
+	display:block;
+	float:left;
+}
