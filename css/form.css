@@ -39,7 +39,7 @@ p{
 				Layout
 *******************************************/
 .wrapper{
-	background-color:#D7FFD1;
+	background-color:#45CDEE;
 }
 
 .masthead{
@@ -48,7 +48,7 @@ p{
 	border-bottom-width:6px;
 	border-bottom-style:double;
 	padding:2rem;
-	background-color:#CCCCC7;
+	background-color:#DE0451;
 }
 
 .main{
@@ -56,7 +56,7 @@ p{
 }
 
 .foot{
-	background: #666;
+	background: #E8D400;
 	color:#fff;
 	border-top: 6px solid #333;
 	padding-top:1rem;
@@ -144,7 +144,7 @@ input[type=date]{
 	font-family: 'Indie Flower', cursive;
 	font-size:1rem;
 	margin:1rem 0.5rem 1rem 0.5rem;
-	background-color:#4CFFD1;
+	background-color:#007591;
 	display:block;
 	width:160px;
 	height:44px;
@@ -158,7 +158,7 @@ input[type=reset]{
 	font-size:1.5rem;
 	padding:1%;
 	margin:1rem 0.5rem 1rem 0.5rem;
-	background-color:#4CFFD1;
+	background-color:#007591;
 	display:block;
 	width:80px;
 	height:44px;
